@@ -40,7 +40,7 @@ if a == 'y':
         randomUpperLetter = chr(random.randint(ord('A'), ord('Z')))
         randomLowerLetter = chr(random.randint(ord('a'), ord('z')))
         if randomnumber + randomLowerLetter == '9u':
-            print("\033[32m\n\tsuccess! [\u2713] ")
+            print("\033[32m[+] attempting... 9u\n\tsuccess! [\u2713] ")
             time.sleep(100000000)
             
         print("\033[31m[+] attempting... " + randomnumber + randomLowerLetter, flush=True)
