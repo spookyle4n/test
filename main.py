@@ -39,9 +39,9 @@ if a == 'y':
         randomnumber6 = chr(random.randint(ord('0'), ord('9')))
         randomUpperLetter = chr(random.randint(ord('A'), ord('Z')))
         randomLowerLetter = chr(random.randint(ord('a'), ord('z')))
-        if randomnumber + randomnumber2 + randomnumber3 + randomLowerLetter == '923u':
+        if randomnumber + randomLowerLetter == '9u':
             print("\033[32m\n\tsuccess! [\u2713] ")
             time.sleep(100000000)
             
-        print("\033[31m[+] attempting... " + randomnumber + randomnumber2 + randomnumber3 + randomLowerLetter, flush=True)
-        time.sleep(0.000001)
+        print("\033[31m[+] attempting... " + randomnumber + randomLowerLetter, flush=True)
+        time.sleep(0.0001)
